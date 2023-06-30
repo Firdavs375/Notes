@@ -3,11 +3,11 @@ const btn = document.querySelector("button")
 const note = document.querySelectorAll(".container")
 const delate = document.querySelector(".img")
 
-
 function showNotes() {
-    center.innerHTML = localStorage.getItem(".container")
+    center.innerHTML = localStorage.getItem("container")
 }
 showNotes();
+
 
 
 function updateStorage() {
