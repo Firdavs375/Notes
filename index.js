@@ -5,7 +5,7 @@ const delate = document.querySelector(".img")
 
 
 function showNotes() {
-    center.innerHTML = localStorage.getItem("container")
+    center.innerHTML = localStorage.getItem(".container")
 }
 showNotes();
 
